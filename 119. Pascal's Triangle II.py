@@ -1,3 +1,4 @@
+#coding:utf-8
 class Solution:
     def getRow(self, rowIndex):
         """

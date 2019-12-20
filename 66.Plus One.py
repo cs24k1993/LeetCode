@@ -1,9 +1,9 @@
+#coding:utf-8
 '''
 Input: [1,2,3]
 Output: [1,2,4]
 Explanation: The array represents the integer 123.
 '''
-
 class Solution:
     def plusOne(self, digits):
         j = len(digits) - 1

@@ -1,3 +1,4 @@
+#coding:utf-8
 class Solution(object):
     def fourSum(self, nums, target):
         nums.sort()

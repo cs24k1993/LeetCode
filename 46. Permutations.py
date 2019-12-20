@@ -1,3 +1,4 @@
+#coding:utf-8
 def permute(self, nums):
     perms = [[]]   
     for n in nums:

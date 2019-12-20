@@ -1,3 +1,4 @@
+#coding:utf-8
 def isPalindrome(num):
     # return int(str(abs(x))[::-1]) == x
 

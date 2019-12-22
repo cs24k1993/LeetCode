@@ -1,4 +1,4 @@
-# coding:utf-8
+#coding:utf-8
 #第1种解法
 #利用切片，把nums2插入nums1后面，再排序。哈哈哈，有点魔鬼
 def merge(nums1,m,nums2,n):

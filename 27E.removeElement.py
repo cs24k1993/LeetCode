@@ -1,8 +1,8 @@
 #coding:utf-8
-#第1种解法
+# 第1种解法
 '''
-pop操作会删除一个元素后，把后面的元素自动前移，
-倒序的话，把删去的窟窿以后的元素往前移，对前面没有遍历过的元素不会有影响
+pop操作会删除一个元素后，把后面的元素自动前移，倒序的话，把删去的窟窿以后的元素往前移，
+对前面没有遍历过的元素不会有影响
 '''
 def removeElement(nums,val):
     for i in range(len(nums) - 1, -1, -1):
@@ -12,10 +12,10 @@ def removeElement(nums,val):
 print(removeElement([1,2,2,3,4],2))
 
 
-#第2种解法
+# 第2种解法
 '''
-了解remove函数
-in判断在不在
+1.了解remove函数
+2.in判断在不在
 '''
 def removeElement2(nums,val):
     while True:
@@ -27,7 +27,7 @@ def removeElement2(nums,val):
 print(removeElement2([1,2,2,3,4,2,3],2))
 
 
-#第3种解法
+# 第3种解法
 '''
 利用双指针，值为val的就放到数组右边
 '''

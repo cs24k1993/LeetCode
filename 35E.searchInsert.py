@@ -1,8 +1,6 @@
 #coding:utf-8
-#第1种解法
-'''
-依次扫描数组，小于目标值就继续，等于大于目标值就返回当前索引值
-'''
+# 第1种解法
+# 依次扫描数组，小于目标值就继续，等于大于目标值就返回当前索引值
 def searchInsert2(nums,target):
     pos = 0
     for i in range(len(nums)):
@@ -14,10 +12,8 @@ def searchInsert2(nums,target):
 print(searchInsert2([6,7,8,9],10))
 
 
-#第2种解法
-'''
-用python的index函数
-'''
+# 第2种解法
+# 用python的index函数
 def searchInsert(nums,target):
     if target in nums:
         return nums.index(target)

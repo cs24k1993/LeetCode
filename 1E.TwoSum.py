@@ -1,8 +1,6 @@
 #coding:utf-8
-#第1种解法
-'''
-用两个for循环，算法复杂度过高
-'''
+# 第1种解法
+# 用两个for循环，算法复杂度过高
 def twoSum(nums,target):
     for i in range(len(nums)-1):
         for j in range(i+1,len(nums)):
@@ -11,11 +9,11 @@ def twoSum(nums,target):
 print(twoSum([1,2,3,4,5],9))
 
 
-#第2种解法
+# 第2种解法
 '''
-1，要了解python中enumerate函数的用法
-2，熟悉python的字典
-3，把数组中的值当做字典的key，索引当做value，遍历的同时把key，value存入字典，进行查找
+1.要了解python中enumerate函数的用法
+2.熟悉python的字典
+3.把数组中的值当做字典的key，索引当做value，遍历的同时把key，value存入字典，进行查找
 '''
 def twoSum2(nums,target):
     dct={}

@@ -1,6 +1,6 @@
 #coding:utf-8
-#第1种解法
-#利用切片，把nums2插入nums1后面，再排序。哈哈哈，有点魔鬼
+# 第1种解法
+# 利用切片，把nums2插入nums1后面，再排序。哈哈哈，有点魔鬼
 def merge(nums1,m,nums2,n):
     nums1[m:]=nums2[:]
     nums1.sort()
@@ -8,7 +8,7 @@ def merge(nums1,m,nums2,n):
 print(merge([1,2,3],3,[2,5,6],3))
 
 
-#第2种解法
+# 第2种解法
 # nums1中的[0,0,0]是为了给nums2中元素留位置
 def merge2(nums1,m,nums2,n):
     i = m - 1

@@ -1,5 +1,5 @@
 #coding:utf-8
-#第1种解法
+# 第1种解法
 def removeDuplicates(nums):
     # 利用set没有重复key的性质去重，再转换成list
     nums[:] = list(set(nums))
@@ -9,7 +9,7 @@ def removeDuplicates(nums):
 print(removeDuplicates([1,2,3,3,4]))
 
 
-#第2种解法
+# 第2种解法
 def removeDuplicates2(nums):
     length = 0
     # 要考虑空数组的情况

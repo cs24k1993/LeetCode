@@ -1,11 +1,15 @@
 #coding:utf-8
 #第1种解法
+'''
+用两个for循环，算法复杂度过高
+'''
 def twoSum(nums,target):
     for i in range(len(nums)-1):
         for j in range(i+1,len(nums)):
             if nums[j] == target-nums[i]:
                 return [i,j]
 print(twoSum([1,2,3,4,5],9))
+
 
 #第2种解法
 '''

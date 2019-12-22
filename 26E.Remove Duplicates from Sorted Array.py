@@ -8,6 +8,7 @@ def removeDuplicates(nums):
     return len(nums)
 print(removeDuplicates([1,2,3,3,4]))
 
+
 #第2种解法
 def removeDuplicates2(nums):
     length = 0

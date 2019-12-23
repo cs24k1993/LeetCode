@@ -6,6 +6,8 @@ def twoSum(nums,target):
         for j in range(i+1,len(nums)):
             if nums[j] == target-nums[i]:
                 return [i,j]
+    # 列表中不存在两元素之和为target时返回0
+    return 0
 print(twoSum([1,2,3,4,5],9))
 
 
@@ -22,4 +24,6 @@ def twoSum2(nums,target):
             return [dct[target-n],i]
         # 这句不能放在if语句之前，解决list中有重复值或target-num=num的情况
         dct[n]=i
+    # 列表中不存在两元素之和为target时返回0
+    return 0
 print(twoSum2([1,2,3,4,5],9))

@@ -1,5 +1,2 @@
-digits=[1,2,3]
-res=''.join(str(i) for i in digits)
-print(type(res))
-e=int(res)
-print(type(e))
+dp = [[0]*i for i in range(1,3)]
+print(dp)

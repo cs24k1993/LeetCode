@@ -1,4 +1,4 @@
-#coding:utf-8
+# coding:utf-8
 # 第1种解法
 # 依次扫描数组，小于目标值就继续，等于大于目标值就返回当前索引值
 def searchInsert2(nums,target):

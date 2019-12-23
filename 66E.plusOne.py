@@ -1,4 +1,4 @@
-#coding:utf-8
+# coding:utf-8
 # 第1种解法
 # 把列表转换为整数再加1，然后把列表转为str类型，利用str的迭代，转换为列表
 def plusOne(digits):

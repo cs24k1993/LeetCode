@@ -1,4 +1,4 @@
-#coding:utf-8
+# coding:utf-8
 '''
 https://leetcode.com/problems/maximum-subarray/discuss/20396/Easy-Python-Way
 属于动态规划问题。该算法把一些子数组的和存到了原数组中的若干个位置，最后的return max(nums)就是返回最大的那个。

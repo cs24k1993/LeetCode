@@ -1,4 +1,4 @@
-#coding:utf-8
+# coding:utf-8
 # 第1种解法
 # 用两个for循环，算法复杂度过高
 def twoSum(nums,target):

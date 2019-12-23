@@ -1,4 +1,4 @@
-#coding:utf-8
+# coding:utf-8
 # 第1种解法
 def removeDuplicates(nums):
     # 利用set没有重复key的性质去重，再转换成list

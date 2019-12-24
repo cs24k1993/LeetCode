@@ -1,2 +1,3 @@
-a=[1,2,3,5,4]
-print(a[:-1])
+a = [2,0,1,0,4,3]
+a.sort(key=bool)
+print(a)

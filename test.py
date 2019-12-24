@@ -1,3 +1,2 @@
-a = [2,0,1,0,4,3]
-a.sort(key=bool)
-print(a)
+b = set(range(4))
+print(3^10^3)

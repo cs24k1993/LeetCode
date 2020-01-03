@@ -24,6 +24,9 @@ def moveZeroes2(nums):
             if x:
                 yield x
     # i = 0一定要加上，不然报错？变量要先声明，这里不太懂
+    # 这条语句在计算range范围的时候需要利用到变量i，这里主要是应对特殊情况：
+    # 如果存在某个输入使得迭代器为空，那么第一个for循环不会执行，enumerate失效，i就未定义了。
+    # 所以需要自己初始化一下。
     i = 0
     for i,n in enumerate(gen(nums)):
         nums[i] = n

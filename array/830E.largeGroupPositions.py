@@ -38,3 +38,4 @@ def largeGroupPositions2(S):
             left = right = i
             count = 1
     return temp
+

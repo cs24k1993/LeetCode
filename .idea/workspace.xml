@@ -3,11 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="8ba4bc2a-7285-4523-90ee-8eb9a65a2a80" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/697.findShortestSubArray.py" beforeDir="false" afterPath="$PROJECT_DIR$/697E.findShortestSubArray.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/717.isOneBitCharacter.py" beforeDir="false" afterPath="$PROJECT_DIR$/717E.isOneBitCharacter.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/724.pivotIndex.py" beforeDir="false" afterPath="$PROJECT_DIR$/724E.pivotIndex.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -226,7 +221,7 @@
       <workItem from="1577331707344" duration="13216000" />
       <workItem from="1577429013958" duration="5883000" />
       <workItem from="1578018079565" duration="17380000" />
-      <workItem from="1578057729503" duration="4121000" />
+      <workItem from="1578057729503" duration="4479000" />
     </task>
     <servers />
   </component>

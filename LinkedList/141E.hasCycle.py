@@ -26,3 +26,4 @@ def hasCycle2(head):
             return True
     return False
 
+

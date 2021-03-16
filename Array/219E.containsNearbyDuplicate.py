@@ -17,8 +17,16 @@ def containsNearbyDuplicate(nums,k):
         if len(dct) > k:
             del dct[nums[i-k]]
     return False
-print(containsNearbyDuplicate([1,2,3,1],2))
+print(containsNearbyDuplicate([1,2,3,1],3))
 
 
-
+def containsNearbyDuplicate2(nums, k):
+    dict = {}
+    for i in range(len(nums)):
+        if nums[i] in dict:
+            if i - dict[nums[i]] == k:
+                return True
+        dict[nums[i]] = i
+    return False
+print(containsNearbyDuplicate2([1,2,3,1],3))
 

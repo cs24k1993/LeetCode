@@ -8,6 +8,22 @@
 3.然后，对于出现次数最多的每个元素 x，right[x] - left[x] + 1 将是我们的候选答案，
 我们将取这些候选的最小值。
 '''
+def findShortestSubArray2(nums):
+    count = 1
+    res = 1
+    nums.sort()
+    for i in range(len(nums)-1):
+        if nums[i+1] == nums[i]:
+            count += 1
+            res = max(res, count)
+        else:
+            count = 1
+    return res
+
+print(findShortestSubArray2([1,2,2,3,1,4,2]))
+
+
+# 下面的解法有问题，Bug
 def findShortestSubArray(nums):
     left, right, count = {}, {}, {}
     for i,x in enumerate(nums):
@@ -22,8 +38,7 @@ def findShortestSubArray(nums):
         if count[x] == degree:
             ans = min(ans,right[x] - left[x] +1)
     return ans
+
 print(findShortestSubArray([1,2,2,3,1,4,2]))
-
-
 
 

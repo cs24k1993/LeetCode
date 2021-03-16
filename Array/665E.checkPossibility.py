@@ -15,6 +15,7 @@ def checkPossibility(nums):
                 nums[0] = nums[1]
             elif nums[i - 1] > nums[i + 1]:
                 nums[i + 1] = nums[i]
+                # return False 不行，比如[8, 9, 7]
             elif nums[i - 1] < nums[i + 1]:
                 nums[i] = nums[i - 1]
             break
@@ -22,5 +23,7 @@ def checkPossibility(nums):
         if nums[i] > nums[i + 1]:
             return False
     return True
+
+print(checkPossibility([6, 9, 7, 8]))
 
 

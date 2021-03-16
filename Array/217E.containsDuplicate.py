@@ -5,7 +5,7 @@ def containsDuplicate(nums):
     for i in range(len(nums)):
         if nums[i] in dct:
             return True
-        dct[nums[i]] = 1
+        dct[nums[i]] = i
     return False
 print(containsDuplicate([1,2,3,4]))
 

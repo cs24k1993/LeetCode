@@ -12,15 +12,14 @@ def findMaxAverage(nums,k):
     for i in range(1,len(nums)-k+1):
         a[i] = a[i-1]-nums[i-1]+nums[i+k-1]
     return max(a)/k
-print(findMaxAverage([1,12,-5,-6,50,3],4))
+print(findMaxAverage([1,12,-5,-6,50,3],4
 
 
 # 第2种解法
 # 自己写的，超时了
 def findMaxAverage2(nums,k):
-    maxAverage = float('-inf')
+    maxAve = -float('inf')
     for i in range(len(nums) - k + 1):
-        if maxAverage < sum(nums[i:i + k]) / k:
-            maxAverage = sum(nums[i:i + k]) / k
-    return maxAverage
+        maxAve = max(maxAve, sum(nums[i:i + k]) / k)
+    return maxAve
 print(findMaxAverage2([1,12,-5,-6,50,3],4))

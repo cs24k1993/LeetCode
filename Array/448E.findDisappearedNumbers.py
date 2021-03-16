@@ -1,5 +1,13 @@
 # coding:utf-8
 # 第1种解法
+def findDisappearedNumbers0(nums):
+    temp = set(nums)
+    res = []
+    for i in range(1, len(nums) + 1):
+        if i not in temp:
+            res.append(i)
+    return res
+
 '''
 抽屉原理(鸽巢原理) + 基于“异或运算”交换两个变量的值
 '''

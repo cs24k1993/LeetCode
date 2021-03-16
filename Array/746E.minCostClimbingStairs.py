@@ -9,6 +9,10 @@
 def minCostClimbingStairs(cost):
     f1 = f2 = 0
     for x in reversed(cost):
-        f1,f2 = x + min(f1,f2),f1
-    return min(f1,f2)
+        f1, f2 = x + min(f1, f2), f1
+    return min(f1, f2)
 
+print(minCostClimbingStairs([10,15,20]))
+
+a, b = 1, 2
+print(a, b)
